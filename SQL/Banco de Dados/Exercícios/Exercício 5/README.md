@@ -25,7 +25,7 @@ __3) Selecionar o nome das equipes que possuem pelo menos um piloto que é do me
 
 _McLaren_
 
-__4) Listar o nome dos amigos de cada piloto; DICA: use 2x a tabela Piloto no FROM__ 
+__4) Listar o nome dos amigos de cada piloto. DICA: use 2x a tabela Piloto no FROM:__ 
 
 __SELECT ... FROM piloto p1, piloto p2, .. WHERE ...__
 
