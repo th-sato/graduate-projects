@@ -1,6 +1,6 @@
 ### 1. Para cada médico contar em quantas clinicas eles atendem. Resposta ordenada em ordem alfabética.
 
-__RESPOSTA:__
+_RESPOSTA:_
 
 Andre
 
@@ -45,7 +45,7 @@ Jessica
 
 ### 2. Listar o nome dos médicos que tem 2 especialidades
 
-__RESPOSTA:__
+_RESPOSTA:_
 
 André
 
@@ -56,7 +56,7 @@ Arthur
 
 _Dica: use  a função hour para converter o resultado da média para hora._ Ex: hour(avg(hora))
 
-__RESPOSTA:__
+_RESPOSTA:_
 
 clinica papa nicolau
 
@@ -65,6 +65,8 @@ clinica dermatológic
 ortocentro
 
 ### 4. Para cada clinica, listar o nome das suas especialidades, ordenado pelo nome da clinica. 
+
+_RESPOSTA:_
 
 centro de otorrino
 
@@ -108,6 +110,8 @@ GERiATRiA
 
 ### 5. Para cada clínica, listar quantas especialidades ela atende.
 
+_RESPOSTA:_
+
 'centro de otorrino', '1'
 
 'clinica pediatrica', '1'
@@ -133,7 +137,7 @@ __COM CONSULTA ANINHADA__
 
 ### 6. Buscar o nome das clinicas em que atendem o médico Arthur.
 
-__RESPOSTA:__
+_RESPOSTA:_
 
 clinica pediatrica
 
@@ -141,7 +145,7 @@ clinica bem estar
 
 ### 7. Buscar as especialidades do médico Andre.
 
-__RESPOSTA:__
+_RESPOSTA:_
 
 CARDiOLOGiA
 
@@ -150,7 +154,7 @@ GERiATRiA
 
 ### 8. Retornar o nome dos médicos que tiveram consulta no ultimo horário.
 
-__RESPOSTA:__
+_RESPOSTA:_
 
 Joao
 
@@ -158,7 +162,7 @@ Soraia
 
 ### 9. Retorna o nome dos médicos que não atendem em nenhuma clinica.
 
-__RESPOSTA:__
+_RESPOSTA:_
 
 José Maria
 
