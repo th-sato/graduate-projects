@@ -1,4 +1,4 @@
-#Base de Dados - Produção Cinematográfica
+# Base de Dados - Produção Cinematográfica
 1. Criar a base de dados apresentada a seguir. Os atributos sublinhados representam a chave
 primária.
     * ATOR(__coda__, nomeart, nomereal, nacionalidade, sexo, idade, indicacoesoscar, oscar)
@@ -39,7 +39,7 @@ __PERSONAGEM__
 | 5    | 5    | Tieta      | 500   |
 
 
-##Consultas
+## Consultas
 1. Os dados de todas as atrizes;
 2. O nome, nacionalidade e sexo dos artistas;
 3. O nome e o número de oscars indicados ou recebidos;
