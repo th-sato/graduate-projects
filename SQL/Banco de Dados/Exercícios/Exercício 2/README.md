@@ -1,8 +1,4 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
+
 ### Copie os comandos em um editor de texto, ao final do exercício envie o documento contendo todos os comandos executados.
 
 
