@@ -1,4 +1,4 @@
-1. Para cada médico contar em quantas clinicas eles atendem. Resposta ordenada em ordem alfabética.
+1. ### Para cada médico contar em quantas clinicas eles atendem. Resposta ordenada em ordem alfabética.
 
 __RESPOSTA:__
 
