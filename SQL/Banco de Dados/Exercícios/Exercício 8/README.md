@@ -20,5 +20,5 @@ _INSERT INTO Paciente values (1, 'joao', 'sjc', 'gripe'), (2, 'maria', 'taubate'
     * de 501 até 700 colocar cidade de cacapava e doenca  catapora
     * de 701 até 900 colocar guaratingueta e doenca sinusite
     * caso contrário colocar pindamonhagaba e doenca cachumba
-    *Execute a procedure
+    * Execute a procedure
 
