@@ -43,7 +43,7 @@ Jessica
 1
 
 
-2. Listar o nome dos médicos que tem 2 especialidades
+### 2. Listar o nome dos médicos que tem 2 especialidades
 
 __RESPOSTA:__
 
@@ -52,7 +52,7 @@ André
 Arthur
 
 
-3. Selecionar o nome da Clinica em que a media de horario das consultas é maior que 20.
+### 3. Selecionar o nome da Clinica em que a media de horario das consultas é maior que 20.
 
 _Dica: use  a função hour para converter o resultado da média para hora._ Ex: hour(avg(hora))
 
@@ -64,7 +64,7 @@ clinica dermatológic
 
 ortocentro
 
-4. Para cada clinica, listar o nome das suas especialidades, ordenado pelo nome da clinica. 
+### 4. Para cada clinica, listar o nome das suas especialidades, ordenado pelo nome da clinica. 
 
 centro de otorrino
 
@@ -106,7 +106,7 @@ centro de geriatria
 
 GERiATRiA
 
-5. Para cada clínica, listar quantas especialidades ela atende.
+### 5. Para cada clínica, listar quantas especialidades ela atende.
 
 'centro de otorrino', '1'
 
@@ -131,7 +131,7 @@ GERiATRiA
 
 __COM CONSULTA ANINHADA__
 
-6. Buscar o nome das clinicas em que atendem o médico Arthur.
+### 6. Buscar o nome das clinicas em que atendem o médico Arthur.
 
 __RESPOSTA:__
 
@@ -139,7 +139,7 @@ clinica pediatrica
 
 clinica bem estar
 
-7. Buscar as especialidades do médico Andre.
+### 7. Buscar as especialidades do médico Andre.
 
 __RESPOSTA:__
 
@@ -148,7 +148,7 @@ CARDiOLOGiA
 GERiATRiA
 
 
-8. Retornar o nome dos médicos que tiveram consulta no ultimo horário.
+### 8. Retornar o nome dos médicos que tiveram consulta no ultimo horário.
 
 __RESPOSTA:__
 
@@ -156,7 +156,7 @@ Joao
 
 Soraia
 
-9. Retorna o nome dos médicos que não atendem em nenhuma clinica.
+### 9. Retorna o nome dos médicos que não atendem em nenhuma clinica.
 
 __RESPOSTA:__
 
