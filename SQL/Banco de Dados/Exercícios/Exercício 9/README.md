@@ -95,14 +95,24 @@ _Onu_
 10. Para cada  organização indicar o total de reservas existentes por hotel. Listar as organizações sem reserva também. 
 
 _CE RM 2_
+
 _ISCTE AL 2_
+
 _ISCTE MN 1_
+
 _NASA 0_
+
 _ONU AL 2_
+
 _ONU LS 1_
+
 _ONU MJ 1_
+
 _ONU MN 1_
+
 _ONU RM 2_
+
 _ONU SH 1_
+
 _TAP MJ 2_
 
