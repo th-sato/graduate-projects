@@ -1,8 +1,3 @@
-/* Código realizado por:
-- Thiago Hideki Sato (RA: 92341)
-- Tiago Alexander Leal Ruzzon (RA: 92346)
-- Tiago da Silva Cardoso (RA: 92347) */
-
 #include <stdio.h>
 #include <stdlib.h>
 
