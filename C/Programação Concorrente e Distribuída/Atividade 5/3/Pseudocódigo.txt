@@ -1,0 +1,18 @@
+S_C <- (0, vazio)
+S_R <- (0, vazio)
+S_O <- (0, vazio)
+
+P1:
+wait(S_C)
+print(C)
+signal(S_R)
+print(E)
+signal(S_O)
+
+P2:
+print(A)
+signal(S_C)
+wait(S_R)
+print(R)
+wait(S_O)
+print(O)
