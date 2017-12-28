@@ -1,4 +1,4 @@
-# Avaliando o Desempenho de Rede com NetKit
+# Trabalho Final de Redes de Computadores: Avaliando o Desempenho de Rede com NetKit
 
 ## Emulação de Redes com o Netkit
 
