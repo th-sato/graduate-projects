@@ -1,0 +1,9 @@
+# Avaliando o Desempenho de Rede com NetKit
+
+## Emulação de Redes com o Netkit
+
+__Unidade Curricular:__ Redes de Computadores
+
+__Professor:__ Valério Rosset
+
+
