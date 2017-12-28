@@ -10,8 +10,7 @@ _INSERT INTO Paciente values (1, 'joao', 'sjc', 'gripe'), (2, 'maria', 'taubate'
 
 4. Crie uma procedure para inserir 20 pacientes da cidade de SJC com doenca Dengue. Lembre-se que já foram inseridos 2.
 
-    * Execute a procedure
-
+> Execute a procedure
 
 5. Crie uma procedure para  inserir 1000 pacientes da tabela:
     * todos com o nome “name”
@@ -20,5 +19,5 @@ _INSERT INTO Paciente values (1, 'joao', 'sjc', 'gripe'), (2, 'maria', 'taubate'
     * de 501 até 700 colocar cidade de cacapava e doenca  catapora
     * de 701 até 900 colocar guaratingueta e doenca sinusite
     * caso contrário colocar pindamonhagaba e doenca cachumba
-    * Execute a procedure
+> Execute a procedure
 
