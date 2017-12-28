@@ -25,7 +25,9 @@
 > Faça os seguintes exercícios:
 
 > a) Crie um pseudo-código que utilize semáforos para que seja possível imprimir a sequência: ACERO ou ACREO. Obs: Não se esqueça de determinar o(s) valor(es) inicial(is) do(s) semáforo(s).
+
 > b) Mostre, através de um diagrama de estados ou descrição tabular, que o código funciona como especificado no item a.
+
 > c) Implemente o programa em liguagem C/PThreads ou Java que faça o que o pseudo-código determine.
 
 4. Crie um programa multi-threads com Java que modifique o exercício 1, de forma a usar um código monitor para resolver o mesmo problema. Desta forma, deve-se usar um método contendo a palavra reservada "synchronized", para atualizar o valor do produto escalar após o cálculo dos valores parciais obtidos pelas threads. Faça um gráfico com o Speed-up e a eficiência obtido. Teste com os mesmos parâmetros estabelecidos no exercício original.
