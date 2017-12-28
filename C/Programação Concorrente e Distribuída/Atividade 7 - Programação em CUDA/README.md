@@ -1,3 +1,5 @@
+# Atividade 7: Programação em CUDA
+
 ### Converta o programa serial para calcular a condução de calor 1D (Arquivo: "fcts.c") para executar em uma GPU.
 
 _OBSERVAÇÃO:_ Preocupe-se em converter apenas o trecho responsável pelo cálculo das linhas 41 até 46:

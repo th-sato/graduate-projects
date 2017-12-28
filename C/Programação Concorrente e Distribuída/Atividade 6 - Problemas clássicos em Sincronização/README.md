@@ -1,3 +1,5 @@
+# Atividade 6: Problemas clássicos em Sincronização
+
 1. Considere um programa concorrente, utilizando C/PThreads, ou C/OpenMP ou ainda JavaThreads, onde existem duas categorias de processos/threads. Os processos da primeira categoria, denominados TPs, deverão produzir N números inteiros aleatórios (todos na faixa entre 1 e 10^8) e inseri-los em uma determinada fila. Os demais processos de outro tipo, denominados TCs, deverão retirar (se houver) dados da fila em comum e verificar se os mesmos são números primos.
 
 > Caso os TCs recebam números negativos os mesmos deverão ser finalizados.

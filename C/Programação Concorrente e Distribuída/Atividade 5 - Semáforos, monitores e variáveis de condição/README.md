@@ -1,3 +1,5 @@
+# Atividade 5: Semáforos, monitores e variáveis de condição
+
 1. Desenvolva programas concorrentes em C/PThreads e Java, ambos utilizando-se de semáforos, para calcular o Produto Escalar entre 2 vetores (do tipo double) de tamanho N:
 
 > _PE = A1*B1 + A2*B2 + ... + AN*BN_
