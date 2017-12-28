@@ -1,12 +1,12 @@
 1. Desenvolva programas concorrentes em C/PThreads e Java, ambos utilizando-se de semáforos, para calcular o Produto Escalar entre 2 vetores (do tipo double) de tamanho N:
 
-_PE = A1*B1 + A2*B2 + ... + AN*BN_
+> _PE = A1*B1 + A2*B2 + ... + AN*BN_
 
-Os vetores devem ser preenchidos aleatoriamente e sua alocação e preenchimento não deverão influenciar as medidas de desempenho.
+> Os vetores devem ser preenchidos aleatoriamente e sua alocação e preenchimento não deverão influenciar as medidas de desempenho.
 
-O algoritmo deve ser implementado da seguinte forma: cada thread deve calcular valores parciais, sendo que a totalização deve ocorrer ao final do cálculo, ainda dentro das threads, em uma seção crítica controlada por semáforo, a qual atualiza uma variável global.
+> O algoritmo deve ser implementado da seguinte forma: cada thread deve calcular valores parciais, sendo que a totalização deve ocorrer ao final do cálculo, ainda dentro das threads, em uma seção crítica controlada por semáforo, a qual atualiza uma variável global.
 
-Faça um gráfico com o Speed-up e a eficiência obtido considerando N com tamanho de 10^5 e 10^7, e o número de threads de 1, 2, 4 e 8.
+> Faça um gráfico com o Speed-up e a eficiência obtido considerando N com tamanho de 10^5 e 10^7, e o número de threads de 1, 2, 4 e 8.
 
 2. Faça o mesmo que o exercício 1 com um programa em OpenMP usando:
     * seção crítica (#pragma omp critical) para controlar a totalização dos resultados parciais em uma variável global;
