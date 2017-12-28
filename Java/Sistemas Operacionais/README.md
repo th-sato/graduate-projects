@@ -6,4 +6,4 @@ Implementação dos seguintes escalonadores:
 * _Round Robin (RR)_
 * _Completely Fair Scheduler (CFS)_
 
-> A implementação do CFS não está completa. Foram implementados somente algumas das ideias encontradas em artigos.
+> A implementação do CFS não está completa. Foi implementado somente algumas das ideias encontradas em artigos.
