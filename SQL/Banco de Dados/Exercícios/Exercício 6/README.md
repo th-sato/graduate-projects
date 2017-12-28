@@ -18,6 +18,6 @@
 
 8. Inserir um novo piloto no banco de dados
 
-9. Execute um select *, na view criada na questão 3) e diga o que ocorreu.
+9. Execute um _select *_ na view criada na questão 3) e diga o que ocorreu.
 
 10. É possível fazer um comando Insert ou Delete em uma View? Explique.
