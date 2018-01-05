@@ -1,5 +1,5 @@
 # Redes de Computadores
 
-Matéria ministrada pelo professor Dr. Valerio Rosset.
+__Professor:__ Dr. Valerio Rosset.
 
 Os exercícios resolvidos foram propostos pelo professor.

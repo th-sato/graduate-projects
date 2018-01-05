@@ -1,8 +1,7 @@
 # Resolução de exercícios em Java
 
-* Algoritmos e Estrutura de Dados
-* Algoritmos e Estrutura de Dados 2
 * Programação Concorrente e Distribuída
+* Programação Orientada a Objetos
 * Redes de Computadores
 * Sistemas Operacionais
 

@@ -1,76 +1,90 @@
 import java.io.*;
 import java.net.*;
+import java.util.Scanner;
 import java.lang.String;
 
-public class Exercicio2 {
+public class Exercicio3 {
 	public static void main(String argv[]) throws Exception {
-		Socket clientSocket = new Socket("172.21.209.71", 2002);
+		Socket clientSocket = new Socket("172.21.209.71", 2001);
+		String ctr = "\r\n";
+		Scanner reader = new Scanner(System.in);
 
 		InputStream is = clientSocket.getInputStream();
 		InputStreamReader isr = new InputStreamReader(is);
 		BufferedReader br = new BufferedReader(isr);
 		String response = br.readLine();
 		System.out.println(response);
-		if (!response.startsWith("220")) {
-			throw new Exception("220 reply not received from server.");
+		if (!response.startsWith("+OK")) {
+			throw new Exception(response);
 		}
-		// Pegar uma referência para o trecho de saída do socket.
+
 		OutputStream os = clientSocket.getOutputStream();
-		// Enviar o comando HELO e pegar a resposta do servidor.
-		String command = "Helo Alice\r\n";
+
+		String command = "user tiago\r\n";
 		System.out.println(command);
 		os.write(command.getBytes("US-ASCII"));
 		response = br.readLine();
 		System.out.println(response);
-		if (!response.startsWith("250")) {
-			throw new Exception("250 reply not received from server.");
-		}
-		// Enviar o comando MAIL FROM.
-		command = "MAIL FROM: <tiago.ruzzon@unifesp.br>\r\n";
-		System.out.println(command);
-		os.write(command.getBytes("US-ASCII"));
-		response = br.readLine();
-		System.out.println(response);
-		if (!response.startsWith("250")) {
-			throw new Exception("250 reply not received from server.");
+		if (!response.startsWith("+OK")) {
+			throw new Exception(response);
 		}
 
-		command = "RCPT TO: <tiago@D122408>\r\n";
+		command = "pass tabom\r\n";
 		System.out.println(command);
 		os.write(command.getBytes("US-ASCII"));
 		response = br.readLine();
 		System.out.println(response);
-		if (!response.startsWith("250")) {
-			throw new Exception("250 reply not received from server.");
+		if (!response.startsWith("+OK")) {
+			throw new Exception(response);
 		}
 
-		command = "DATA\r\n";
+		command = "list\r\n";
 		System.out.println(command);
 		os.write(command.getBytes("US-ASCII"));
 		response = br.readLine();
-		System.out.println(response);
-		command = "SUBJECT: Assunto\r\nTESTE EM JAVA\r\n";
-		System.out.println(command);
-		os.write(command.getBytes("US-ASCII"));
-
-		command = ".\r\n";
-		System.out.println(command);
-		os.write(command.getBytes("US-ASCII"));
-		response = br.readLine();
-		System.out.println(response);
-		if (!response.startsWith("250")) {
-			throw new Exception("250 reply not received from server.");
+		while (!response.startsWith(".")) {
+			System.out.println(response);
+			response = br.readLine();
 		}
 
-		command = "QUIT\r\n";
-		System.out.println(command);
+		System.out.println("Enter your selection: ");
+		command = reader.nextLine() + ctr;
+		while (!command.startsWith("quit")) {
+			os.write(command.getBytes("US-ASCII"));
+			response = br.readLine();
+			if (command.startsWith("retr"))
+				while (!response.startsWith(".")) {
+					if (response.startsWith("-ERR")) {
+						throw new Exception(response);
+					}
+					System.out.println(response);
+					response = br.readLine();
+				}
+			else if (command.startsWith("dele")) {
+				if (!response.startsWith("+OK")) {
+					throw new Exception(response);
+				}
+				else
+					System.out.println("Deleted");
+			}
+			else if (command.startsWith("list")) {
+				response = br.readLine();
+				while (!response.startsWith(".")) {
+					System.out.println(response);
+					response = br.readLine();
+				}
+			}
+			System.out.println("Enter your selection: ");
+			command = reader.nextLine() + ctr;
+		}
+	
 		os.write(command.getBytes("US-ASCII"));
 		response = br.readLine();
 		System.out.println(response);
-		if (!response.startsWith("221")) {
-			throw new Exception("221 connection closed.");
+		if (!response.startsWith("+OK")) {
+			throw new Exception(response);
 		}
-		clientSocket.close();
+		// dele retorna +OK ou -ERR se nao existe
+		// retr retorna mensagem ou -ERR se nao existe ou foi deletado
 	}
-
 }

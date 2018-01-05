@@ -1,5 +1,5 @@
 # Banco de Dados
 
-Matéria ministrada pela Profª. Dra. Daniela Leal Musa.
+__Professora:__ Dra. Daniela Leal Musa.
 
-Neste diretório, há o trabalho final da disciplina e alguns exercícios propostos pela professora.
+Neste diretório, há exercícios propostos pela professora.

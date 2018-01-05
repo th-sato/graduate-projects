@@ -1,0 +1,5 @@
+# Laboratório 01: Camada de Aplicação
+
+### Programação com Sockets e TCP
+
+Implementar duas aplicações, uma Cliente e outra Servidor, que utilizando Sockets com TCP em uma linguagem de programação de sua escolha (python, java ou c/c++). O servidor tem a função de receber caracteres do cliente (utilizando a porta de serviço 3000), convertê-los em letras maiúsculas e devolver os caracteres modificados ao cliente. É preciso perceber que além das portas utilizadas no cliente e no servidor, o cliente precisa do endereço do servidor para direcionar a mensagem para a camada de transporte. Nesse caso, caso o processo servidor esteja no mesmo host utilize o endereço *localhost* ou *127.0.0.1*, caso o processo servidor esteja em outro host será preciso fornecer o endereço IP do mesmo. Para verificar o IP do seu host abra um terminal de comando e digite *ifconfig* o resultado desse comando será uma lista de interfaces de rede do host com os respectivos endereços IP, procure pelo endereço da interface eth0.
