@@ -36,14 +36,17 @@ __Saída__
 
 Seu programa deve imprimir uma linha contendo a lista dos menores números restantes dos vetores ordenados antes de intercalar o i-ésimo menor valor. Imprima um espaço em branco entre cada par de números.
 
-| Exemplo de Entrada  | Exemplo de Saída |
-| ------------------- | ---------------- |
-| 5 1                 | 2 3 3 7 9        |
-| 7 7 7 9 10 13 18 20 |                  |
-| 3 2 4 4             |                  |
-| 4 3 4 8 9           |                  |
-| 5 3 8 9 9 10        |                  |
-| 4 9 12 20 23        |                  |
+| Exemplo de Entrada  |
+| ------------------- |
+| 5 1                 |
+| 7 7 7 9 10 13 18 20 |
+| 3 2 4 4             |
+| 4 3 4 8 9           |
+| 5 3 8 9 9 10        |
+| 4 9 12 20 23        |
+| Exemplo de Saída    |
+| ------------------- |
+| 2 3 3 7 9           |
 
 |         Exemplo de Entrada          |   Exemplo de Saída   |
 | ----------------------------------- | -------------------- |
