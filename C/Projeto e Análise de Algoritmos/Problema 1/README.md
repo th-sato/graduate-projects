@@ -1,4 +1,4 @@
-# Problema 2: Cinema lucrativo
+# Problema 1: Cinema lucrativo
 
 *Tempo Limite:* 1s (C/C++), 4s (Java)
 
