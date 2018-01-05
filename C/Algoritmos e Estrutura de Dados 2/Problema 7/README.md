@@ -14,29 +14,51 @@ __Saída__
 
 Para cada caso de teste seu programa deve imprimir uma linha contendo um inteiro *G*, onde *G* é igual a 1 se o requisito de conexidade está satisfeito, ou *G* é igual a 0, caso contrário.
 
-| Exemplo de Entrada  | Exemplo de Saída |
-| ------------------- | ---------------- |
-| 4 5                 | 1                |
-| 1 2 1               |                  |
-| 1 3 2               |                  |
-| 2 4 1               |                  |
-| 3 4 1               |                  |
-| 4 1 2               |                  |
+| Exemplo de Entrada  |
+| ------------------- |
+| 4 5                 |
+| 1 2 1               |
+| 1 3 2               |
+| 2 4 1               |
+| 3 4 1               |
+| 4 1 2               |
 
-| Exemplo de Entrada  | Exemplo de Saída |
-| ------------------- | ---------------- |
-| 3 2                 | 1                |
-| 1 2 2               |                  |
-| 1 3 2               |                  |
+| Exemplo de Saída |
+| ---------------- |
+| 1                |
 
-| Exemplo de Entrada  | Exemplo de Saída |
-| ------------------- | ---------------- |
-| 3 2                 | 0                |
-| 1 2 2               |                  |
-| 1 3 1               |                  |
+***
 
-| Exemplo de Entrada  | Exemplo de Saída |
-| ------------------- | ---------------- |
-| 4 2                 | 0                |
-| 1 2 2               |                  |
-| 3 4 2               |                  |
+| Exemplo de Entrada  |
+| ------------------- |
+| 3 2                 |
+| 1 2 2               |
+| 1 3 2               |
+
+| Exemplo de Saída |
+| ---------------- |
+| 1                |
+
+***
+
+| Exemplo de Entrada  |
+| ------------------- |
+| 3 2                 |
+| 1 2 2               |
+| 1 3 1               |
+
+| Exemplo de Saída |
+| ---------------- |
+| 0                |
+
+***
+
+| Exemplo de Entrada  |
+| ------------------- |
+| 4 2                 |
+| 1 2 2               |
+| 3 4 2               |
+
+| Exemplo de Saída |
+| ---------------- |
+| 0                |

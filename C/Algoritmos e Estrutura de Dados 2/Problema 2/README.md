@@ -14,42 +14,78 @@ __Saída__
 
 Na primeira linha da saída, imprima o número de vezes que a função PARTITION é executada. Nas próximas *M* linhas, imprima os M nomes presentes a partir da *P*-éssima posição da lista ordenada, um nome a cada linha.
 
-| Exemplo de Entrada  | Exemplo de Saída |
-| ------------------- | ---------------- |
-| 5                   | 3                |
-| Daniel              | ana              |
-| Ana                 | daniel           |
-| Jose                | joao             |
-| Silvia              | jose             |
-| Joao                | silvia           |
-| 1 5                 |                  |
+| Exemplo de Entrada  |
+| ------------------- |
+| 5                   |
+| Daniel              |
+| Ana                 |
+| Jose                |
+| Silvia              |
+| Joao                |
+| 1 5                 |
 
-| Exemplo de Entrada  | Exemplo de Saída |
-| ------------------- | ---------------- |
-| 10                  | 6                |
-| Zurich              | aaaaa            |
-| Zu                  | hu               |
-| Wu                  | wei              |
-| Hu                  | woo              |
-| Zukemberg           | wu               |
-| Wei                 | zoo              |
-| Woo                 | zu               |
-| Zoo                 | zukemberg        |
-| Zuu                 | zurich           |
-| aaaaa               | zuu              |
-| 1 10                |                  |
+| Exemplo de Saída |
+| ---------------- |
+| 3                |
+| ana              |
+| daniel           |
+| joao             |
+| jose             |
+| silvia           |
 
-| Exemplo de Entrada  | Exemplo de Saída |
-| ------------------- | ---------------- |
-| 10                  | 7                |
-| USA                 | iran             |
-| brazil              | iraq             |
-| zimbabwe            | ukraine          |
-| Burundi             | usa              |
-| Iraq                | vietnam          |
-| Vietnam             |                  |
-| Greece              |                  |
-| bhutan              |                  |
-| Iran                |                  |
-| Ukraine             |                  |
-| 5 5                 |                  |
+***
+
+| Exemplo de Entrada  |
+| ------------------- |
+| 10                  |
+| Zurich              |
+| Zu                  |
+| Wu                  |
+| Hu                  |
+| Zukemberg           |
+| Wei                 |
+| Woo                 |
+| Zoo                 |
+| Zuu                 |
+| aaaaa               |
+| 1 10                |
+
+| Exemplo de Saída |
+| ---------------- |
+| 6                |
+| aaaaa            |
+| hu               |
+| wei              |
+| woo              |
+| wu               |
+| zoo              |
+| zu               |
+| zukemberg        |
+| zurich           |
+| zuu              |
+
+***
+
+| Exemplo de Entrada  |
+| ------------------- |
+| 10                  |
+| USA                 |
+| brazil              |
+| zimbabwe            |
+| Burundi             |
+| Iraq                |
+| Vietnam             |
+| Greece              |
+| bhutan              |
+| Iran                |
+| Ukraine             |
+| 5 5                 |
+
+| Exemplo de Saída |
+| ---------------- |
+| 7                |
+| iran             |
+| iraq             |
+| ukraine          |
+| usa              |
+| vietnam          |

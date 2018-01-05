@@ -10,48 +10,65 @@ __Saída__
 
 Para cada operação de busca, imprima a altura do nó que armazena o nome buscado e a lista de anos registrados para esse nome em ordem de inserção separados por espaços em branco. Considere que a altura de um nó folha é 1. Caso o nome buscado não exista na árvore de busca, imprima 0.
 
-| Exemplo de Entrada  | Exemplo de Saída |
-| ------------------- | ---------------- |
-| 1 Rivaldo 1999      | 1 1998 2000 2003 |
-| 1 Ronaldo 1997      | 1 2009 2010      |
-| 1 Zidane 1998       | 0                |
-| 1 Ronaldo 2002      | 2 1997 2002 1996 |
-| 1 Zidane 2000       | 1 1994           |
-| 1 Ronaldinho 2004   |                  |
-| 1 Zidane 2003       |                  |
-| 2 Zidane            |                  |
-| 1 Kaka 2007         |                  |
-| 1 Messi 2009        |                  |
-| 1 Messi 2010        |                  |
-| 1 Ronaldinho 2005   |                  |
-| 2 Messi             |                  |
-| 1 Messi 2011        |                  |
-| 2 Cristiano         |                  |
-| 1 Cristiano 2008    |                  |
-| 1 Cristiano 2013    |                  |
-| 1 Messi 2012        |                  |
-| 1 Ronaldo 1996      |                  |
-| 2 Ronaldo           |                  |
-| 1 Romario 1994      |                  |
-| 1 Cristiano 2014    |                  |
-| 2 Romario           |                  |
-| 0                   |                  |
+| Exemplo de Entrada  |
+| ------------------- |
+| 1 Rivaldo 1999      |
+| 1 Ronaldo 1997      |
+| 1 Zidane 1998       |
+| 1 Ronaldo 2002      |
+| 1 Zidane 2000       |
+| 1 Ronaldinho 2004   |
+| 1 Zidane 2003       |
+| 2 Zidane            |
+| 1 Kaka 2007         |
+| 1 Messi 2009        |
+| 1 Messi 2010        |
+| 1 Ronaldinho 2005   |
+| 2 Messi             |
+| 1 Messi 2011        |
+| 2 Cristiano         |
+| 1 Cristiano 2008    |
+| 1 Cristiano 2013    |
+| 1 Messi 2012        |
+| 1 Ronaldo 1996      |
+| 2 Ronaldo           |
+| 1 Romario 1994      |
+| 1 Cristiano 2014    |
+| 2 Romario           |
+| 0                   |
 
-|  Exemplo de Entrada   | Exemplo de Saída |
-| --------------------- | ---------------- |
-| 1 Barcelona 2009      | 3 2000           |
-| 1 Corinthians 2000    | 1 2009 2011      |
-| 1 SaoPaulo 2005       | 1 2000 2012      |
-| 1 Internacional 2006  | 4 2006           |
-| 1 RealMadrid 2014     |                  |
-| 2 Corinthians         |                  |
-| 1 Milan 2007          |                  |
-| 1 Barcelona 2011      |                  |
-| 1 Corinthians 2012    |                  |
-| 1 BayernMunich 2013   |                  |
-| 2 Barcelona           |                  |
-| 1 ManchesterU 2008    |                  |
-| 1 Internazionale 2010 |                  |
-| 2 Corinthians         |                  |
-| 2 Internacional       |                  |
-| 0                     |                  |
+| Exemplo de Saída |
+| ---------------- |
+| 1 1998 2000 2003 |
+| 1 2009 2010      |
+| 0                |
+| 2 1997 2002 1996 |
+| 1 1994           |
+
+***
+
+|  Exemplo de Entrada   |
+| --------------------- |
+| 1 Barcelona 2009      |
+| 1 Corinthians 2000    |
+| 1 SaoPaulo 2005       |
+| 1 Internacional 2006  |
+| 1 RealMadrid 2014     |
+| 2 Corinthians         |
+| 1 Milan 2007          |
+| 1 Barcelona 2011      |
+| 1 Corinthians 2012    |
+| 1 BayernMunich 2013   |
+| 2 Barcelona           |
+| 1 ManchesterU 2008    |
+| 1 Internazionale 2010 |
+| 2 Corinthians         |
+| 2 Internacional       |
+| 0                     |
+
+| Exemplo de Saída |
+| ---------------- |
+| 3 2000           |
+| 1 2009 2011      |
+| 1 2000 2012      |
+| 4 2006           |

@@ -16,22 +16,44 @@ __Saída__
 
 Imprima um inteiro representando o tamanho do maior padrão simétrico com o número máximo de mutações como descrito acima.
 
-| Exemplo de Entrada | Exemplo de Saída |
-| ------------------ | ---------------- |
-| GACACAT            | 5                |
-| 0                  |                  |
+| Exemplo de Entrada |
+| ------------------ |
+| GACACAT            |
+| 0                  |
 
-| Exemplo de Entrada | Exemplo de Saída |
-| ------------------ | ---------------- |
-| GATTACA            | 1                |
-| 1 1                |                  |
+| Exemplo de Saída |
+| ---------------- |
+| 5                |
 
-| Exemplo de Entrada | Exemplo de Saída |
-| ------------------ | ---------------- |
-| GATTACA            | 3                |
-| 3 1 5 6            |                  |
+***
 
-| Exemplo de Entrada | Exemplo de Saída |
-| ------------------ | ---------------- |
-| TATACTATA          | 7                |
-| 2 5 9              |                  |
+| Exemplo de Entrada |
+| ------------------ |
+| GATTACA            |
+| 1 1                |
+
+| Exemplo de Saída |
+| ---------------- |
+| 1                |
+
+***
+
+| Exemplo de Entrada |
+| ------------------ |
+| GATTACA            |
+| 3 1 5 6            |
+
+| Exemplo de Saída |
+| ---------------- |
+| 3                |
+
+***
+
+| Exemplo de Entrada |
+| ------------------ |
+| TATACTATA          |
+| 2 5 9              |
+
+| Exemplo de Saída |
+| ---------------- |
+| 7                |

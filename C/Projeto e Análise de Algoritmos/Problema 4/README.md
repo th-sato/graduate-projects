@@ -18,29 +18,45 @@ __Saída__
 Imprima uma linha com os identificadores das pessoas a serem convidadas para a segunda etapa do
 evento em ordem crescente. Imprima um espaço em branco entre 2 participantes.
 
-| Exemplo de Entrada | Exemplo de Saída |
-| ------------------ | ---------------- |
-| 4                  | 1 2              |
-| 1 2                |                  |
-| 2 1                |                  |
-| 3 1                |                  |
-| 4 3                |                  |
+| Exemplo de Entrada |
+| ------------------ |
+| 4                  |
+| 1 2                |
+| 2 1                |
+| 3 1                |
+| 4 3                |
 
-| Exemplo de Entrada | Exemplo de Saída |
-| ------------------ | ---------------- |
-| 7                  | 1 3              |
-| 1 3                |                  |
-| 2 1                |                  |
-| 3 1                |                  |
-| 4 5                |                  |
-| 5 3                |                  |
-| 6 4                |                  |
-| 7 6                |                  |
+| Exemplo de Saída |
+| ---------------- |
+| 1 2              |
 
-| Exemplo de Entrada | Exemplo de Saída |
-| ------------------ | ---------------- |
-| 4                  | 1 2 3            |
-| 1 2                |                  |
-| 2 3                |                  |
-| 3 1                |                  |
-| 4 2                |                  |
+***
+
+| Exemplo de Entrada |
+| ------------------ |
+| 7                  |
+| 1 3                |
+| 2 1                |
+| 3 1                |
+| 4 5                |
+| 5 3                |
+| 6 4                |
+| 7 6                |
+
+| Exemplo de Saída |
+| ---------------- |
+| 1 3              |
+
+***
+
+| Exemplo de Entrada |
+| ------------------ |
+| 4                  |
+| 1 2                |
+| 2 3                |
+| 3 1                |
+| 4 2                |
+
+| Exemplo de Saída |
+| ---------------- |
+| 1 2 3            |

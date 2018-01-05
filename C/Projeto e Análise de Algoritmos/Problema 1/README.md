@@ -16,22 +16,32 @@ __Saída__
 
 Seu programa deve imprimir uma linha com o valor do lucro máximo que Christopher pode obter para cada caso.
 
-| Exemplo de Entrada  | Exemplo de Saída |
-| ------------------- | ---------------- |
-| 6                   | 610              |
-| 200                 |                  |
-| 180                 |                  |
-| 350                 |                  |
-| 60                  |                  |
-| 800                 |                  |
-| 150                 |                  |
-| 210                 |                  |
+| Exemplo de Entrada  |
+| ------------------- |
+| 6                   |
+| 200                 |
+| 180                 |
+| 350                 |
+| 60                  |
+| 800                 |
+| 150                 |
+| 210                 |
 
-| Exemplo de Entrada  | Exemplo de Saída |
-| ------------------- | ---------------- |
-| 4                   | 0                |
-| 40                  |                  |
-| 30                  |                  |
-| 20                  |                  |
-| 10                  |                  |
-| 38                  |                  |
+| Exemplo de Saída |
+| ---------------- |
+| 610              |
+
+***
+
+| Exemplo de Entrada  |
+| ------------------- |
+| 4                   |
+| 40                  |
+| 30                  |
+| 20                  |
+| 10                  |
+| 38                  |
+
+| Exemplo de Saída |
+| ---------------- |
+| 0                |

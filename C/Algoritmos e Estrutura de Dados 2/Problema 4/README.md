@@ -16,16 +16,26 @@ __Saída__
 
 Para cada “dígito” *i* do Radix sort, imprima uma linha com os 27 valores do vetor *C* do Counting sort. Nas próximas *M* linhas, imprima os *M* nomes presentes a partir da *P*-ésima posição da lista ordenada, um nome a cada linha sem os caracteres adicionais.
 
-| Exemplo de Entrada  |                    Exemplo de Saída                   |
-| ------------------- | ----------------------------------------------------- |
-| 5                   | 3 4 4 4 4 4 4 4 4 4 4 4 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 |
-| Daniel              | 3 3 3 3 3 4 4 4 4 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 |
-| Ana                 | 1 1 1 1 1 2 2 2 2 3 3 3 3 3 3 4 4 4 4 4 4 4 5 5 5 5 5 |
-| Jose                | 0 2 2 2 2 2 2 2 2 2 2 2 3 3 4 4 4 4 4 5 5 5 5 5 5 5 5 |
-| Silvia              | 0 1 1 1 1 1 1 1 1 2 2 2 2 2 3 5 5 5 5 5 5 5 5 5 5 5 5 |
-| Joao                | 0 1 1 1 2 2 2 2 2 2 4 4 4 4 4 4 4 4 4 5 5 5 5 5 5 5 5 |
-| 1 5                 | ana                                                   |
-|                     | daniel                                                |
-|                     | joao                                                  |
-|                     | jose                                                  |
-|                     | silvia                                                |
+| Exemplo de Entrada  |
+| ------------------- |
+| 5                   |
+| Daniel              |
+| Ana                 |
+| Jose                |
+| Silvia              |
+| Joao                |
+| 1 5                 |
+
+|                    Exemplo de Saída                   |
+| ----------------------------------------------------- |
+| 3 4 4 4 4 4 4 4 4 4 4 4 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 |
+| 3 3 3 3 3 4 4 4 4 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 |
+| 1 1 1 1 1 2 2 2 2 3 3 3 3 3 3 4 4 4 4 4 4 4 5 5 5 5 5 |
+| 0 2 2 2 2 2 2 2 2 2 2 2 3 3 4 4 4 4 4 5 5 5 5 5 5 5 5 |
+| 0 1 1 1 1 1 1 1 1 2 2 2 2 2 3 5 5 5 5 5 5 5 5 5 5 5 5 |
+| 0 1 1 1 2 2 2 2 2 2 4 4 4 4 4 4 4 4 4 5 5 5 5 5 5 5 5 |
+| ana                                                   |
+| daniel                                                |
+| joao                                                  |
+| jose                                                  |
+| silvia                                                |

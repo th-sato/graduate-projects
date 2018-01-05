@@ -16,24 +16,39 @@ __Saída__
 
 Imprima uma linha o número máximo de pontos que o seu time pode obter após a compra dos gols.
 
-| Exemplo de Entrada  | Exemplo de Saída |
-| ------------------- | ---------------- |
-| 2 1                 | 4                |
-| 1 1                 |                  |
-| 1 1                 |                  |
+| Exemplo de Entrada  |
+| ------------------- |
+| 2 1                 |
+| 1 1                 |
+| 1 1                 |
 
+| Exemplo de Saída |
+| ---------------- |
+| 4                |
 
-| Exemplo de Entrada  | Exemplo de Saída |
-| ------------------- | ---------------- |
-| 3 2                 | 6                |
-| 1 3                 |                  |
-| 3 1                 |                  |
-| 2 2                 |                  |
+***
 
-| Exemplo de Entrada  | Exemplo de Saída |
-| ------------------- | ---------------- |
-| 4 10                | 12               |
-| 1 1                 |                  |
-| 2 2                 |                  |
-| 1 3                 |                  |
-| 0 4                 |                  |
+| Exemplo de Entrada  |
+| ------------------- |
+| 3 2                 |
+| 1 3                 |
+| 3 1                 |
+| 2 2                 |
+
+| Exemplo de Saída |
+| ---------------- |
+| 6                |
+
+***
+
+| Exemplo de Entrada  |
+| ------------------- |
+| 4 10                |
+| 1 1                 |
+| 2 2                 |
+| 1 3                 |
+| 0 4                 |
+
+| Exemplo de Saída |
+| ---------------- |
+| 12               |

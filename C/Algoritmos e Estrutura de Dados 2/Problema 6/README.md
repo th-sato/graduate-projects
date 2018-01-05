@@ -10,41 +10,75 @@ __Saída__
 
 Para cada operação de busca, imprima duas linhas. A primeira linha deve conter todos os nomes, em ordem crescente (alfanumérica) e separados por espaços em branco, inclusos no mesmo grupo da pessoa buscada. A segunda linha deve conter a lista de números da pessoa buscada em ordem de inserção separados por espaços em branco. Caso o nome buscado não seja encontrado, imprima 0 na segunda linha.
 
-| Exemplo de Entrada  | Exemplo de Saída |
-| ------------------- | ---------------- |
-| 3                   | Ari Ruy          |
-| 1 Ruy 5             | 5                |
-| 1 Lee 7             | Kim Lee Mao      |
-| 1 Ari 8             | 7 5              |
-| 1 Mao 6             | Ari Ruy Sam      |
-| 1 Lee 5             | 8                |
-| 2 Ruy               | Kim Lee Mao      |
-| 1 Sam 7             | 6                |
-| 1 Ruy 9             |                  |
-| 1 Kim 8             | 0                |
-| 2 Lee               | Kim Lee Mao      |
-| 2 Ari               | 0                |
-| 2 Mao               |                  |
-| 2 Aab               |                  |
-| 2 Mau               |                  |
-| 0                   |                  |
+| Exemplo de Entrada  |
+| ------------------- |
+| 3                   |
+| 1 Ruy 5             |
+| 1 Lee 7             |
+| 1 Ari 8             |
+| 1 Mao 6             |
+| 1 Lee 5             |
+| 2 Ruy               |
+| 1 Sam 7             |
+| 1 Ruy 9             |
+| 1 Kim 8             |
+| 2 Lee               |
+| 2 Ari               |
+| 2 Mao               |
+| 2 Aab               |
+| 2 Mau               |
+| 0                   |
 
-| Exemplo de Entrada  |  Exemplo de Saída   |
-| ------------------- | ------------------- |
-| 7                   | Barbara Rui Tatiana |
-| 1 Carlos 5          | 9                   |
-| 1 Rui 9             | Barbara Rui Tatiana |
-| 1 Barbara 7         | 9 5                 |
-| 1 Vinicius 6        | Carlos              |
-| 1 Tatiana 9         | 5                   |
-| 1 Olavo 7           | Barbara Rui Tatiana |
-| 1 Fabiane 6         | 7                   |
-| 1 Tatiana 5         | Vinicius            |
-| 2 Rui               | 6                   |
-| 2 Tatiana           | Olavo               |
-| 2 Carlos            | 7                   |
-| 2 Barbara           | Fabiane             |
-| 2 Vinicius          | 6                   |
-| 2 Olavo             |                     |
-| 2 Fabiane           |                     |
-| 0                   |                     |
+| Exemplo de Saída |
+| ---------------- |
+| Ari Ruy          |
+| 5                |
+| Kim Lee Mao      |
+| 7 5              |
+| Ari Ruy Sam      |
+| 8                |
+| Kim Lee Mao      |
+| 6                |
+|                  |
+| 0                |
+| Kim Lee Mao      |
+| 0                |
+
+***
+
+| Exemplo de Entrada  |
+| ------------------- |
+| 7                   |
+| 1 Carlos 5          |
+| 1 Rui 9             |
+| 1 Barbara 7         |
+| 1 Vinicius 6        |
+| 1 Tatiana 9         |
+| 1 Olavo 7           |
+| 1 Fabiane 6         |
+| 1 Tatiana 5         |
+| 2 Rui               |
+| 2 Tatiana           |
+| 2 Carlos            |
+| 2 Barbara           |
+| 2 Vinicius          |
+| 2 Olavo             |
+| 2 Fabiane           |
+| 0                   |
+
+|  Exemplo de Saída   |
+| ------------------- |
+| Barbara Rui Tatiana |
+| 9                   |
+| Barbara Rui Tatiana |
+| 9 5                 |
+| Carlos              |
+| 5                   |
+| Barbara Rui Tatiana |
+| 7                   |
+| Vinicius            |
+| 6                   |
+| Olavo               |
+| 7                   |
+| Fabiane             |
+| 6                   |

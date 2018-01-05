@@ -17,31 +17,59 @@ __Saída__
 
 Seu programa deve imprimir uma sequência de combinações para localização das guaritas. Para cada combinação, imprima uma linha com *N* números com as coordenadas das linhas de cada guarita, sendo que o primeiro número representa a linha em que a guarita da coluna 1 será implantada, o segundo número representa a linha em que a guarita da coluna 2 será colocada, e assim por diante. As linhas deverão ser impressas em ordem lexicográfica.
 
-| Exemplo de Entrada | Exemplo de Saída |
-| ------------------ | ---------------- |
-| 3 1                | 1 2 3            |
-| 2 2                | 3 2 1            |
+| Exemplo de Entrada |
+| ------------------ |
+| 3 1                |
+| 2 2                |
 
+| Exemplo de Saída |
+| ---------------- |
+| 3 1              |
+| 3 2 1            |
 
-| Exemplo de Entrada | Exemplo de Saída |
-| ------------------ | ---------------- |
-| 4 2                | 4 2 3 1          |
-| 1 4                | 4 3 2 1          |
-| 4 1                |                  |
+***
 
-| Exemplo de Entrada | Exemplo de Saída |
-| ------------------ | ---------------- |
-| 5 3                | 1 2 4 3 5        |
-| 1 1                | 1 2 5 3 4        |
-| 2 2                |                  |
-| 3 4                |                  |
+| Exemplo de Entrada |
+| ------------------ |
+| 4 2                |
+| 1 4                |
+| 4 1                |
 
+| Exemplo de Saída |
+| ---------------- |
+| 4 2 3 1          |
+| 4 3 2 1          |
 
-| Exemplo de Entrada | Exemplo de Saída |
-| ------------------ | ---------------- |
-| 8 5                | 1 2 4 5 3 7 6 8  |
-| 1 1                | 1 2 8 5 3 7 6 4  |
-| 3 5                | 1 4 2 5 3 7 6 8  |
-| 5 4                | 1 4 8 5 3 7 6 2  |
-| 7 6                | 1 8 2 5 3 7 6 4  |
-| 6 7                | 1 8 4 5 3 7 6 2  |
+***
+
+| Exemplo de Entrada |
+| ------------------ |
+| 5 3                |
+| 1 1                |
+| 2 2                |
+| 3 4                |
+
+| Exemplo de Saída |
+| ---------------- |
+| 1 2 4 3 5        |
+| 1 2 5 3 4        |
+
+***
+
+| Exemplo de Entrada |
+| ------------------ |
+| 8 5                |
+| 1 1                |
+| 3 5                |
+| 5 4                |
+| 7 6                |
+| 6 7                |
+
+| Exemplo de Saída |
+| ---------------- |
+| 1 2 4 5 3 7 6 8  |
+| 1 2 8 5 3 7 6 4  |
+| 1 4 2 5 3 7 6 8  |
+| 1 4 8 5 3 7 6 2  |
+| 1 8 2 5 3 7 6 4  |
+| 1 8 4 5 3 7 6 2  |
