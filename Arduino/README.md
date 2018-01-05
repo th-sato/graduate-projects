@@ -1,5 +1,7 @@
 # Arduino
 
+__Disciplina:__ Sistemas Embarcados.
+
 __Professor:__ Dr. Luiz Eduardo Galvão Martins
 
 Neste diretório:
